@@ -1,0 +1,65 @@
+
+    ul {
+        border: 1px solid #ec6803;
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px #ec6803;
+        margin: 10px 0;
+        padding: 2% 0;
+        width: 40%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    ul li {
+        padding: 10px 15%;
+    }
+
+    li:first-child {
+        color: red;
+        /* text-decoration: underline; */
+        /* cursor: pointer; */
+    }
+
+    li:nth-child(2) {
+        color: blue;
+    }
+
+    li:nth-child(3) {
+        color: Purple;
+    }
+
+    li:nth-child(4) {
+        color: yellow;
+    }
+
+    li:nth-child(5) {
+        color: green;
+    }
+
+    li:last-child {
+        color: gray;
+    }
+
+    .myTag,
+    .tag-selector {
+        font-size: 1rem;
+    }
+
+    .tag-selector {
+        display: none;
+    }
+
+    button {
+        background-color: #ec6803;
+        border: 1px solid #ec6803;
+        border-radius: 5px;
+        font-size: 12px;
+        text-transform: capitalize;
+        color: white;
+        padding: 6px 15px;
+    }
+
+    input.select-selected {
+        border: 1px solid gray;
+        border-radius: 5px;
+        padding: 5px;
+    }
